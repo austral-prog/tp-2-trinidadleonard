@@ -1,9 +1,8 @@
 def ada():
     first_name = "AdA"
     last_name = "LoVeLAce"
-    first_name = "ada"
-    last_name = " lovelace"
-    print(first_name+last_name)
-    print("Ada"+" Lovelace")
-    print("ADA"+" LOVELACE")
-    print(f"\t {first_name}{last_name}")
+    full_name = f"{first_name} {last_name}"
+    print(full_name.lower())
+    print(full_name.title())
+    print(full_name.upper())
+    print(f"\t{full_name.lower()}")
